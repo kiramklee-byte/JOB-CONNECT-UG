@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobConnect Uganda-Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo-link"><img src="logo.jpg" alt="Job connect Uganda Logo"class="logo-img"></a>
+        <a href="index.html"><button>Home</button></a>
+        <a href="about.html"><button>About Us</button></a>
+        <a href="jobs.html"><button>Job Listings</button></a>
+        <a href="post-job.html"><button>Post a Job</button></a>
+        <a href="upload-cv.html"><button>Upload CV</button></a>
+        <a href="career-tips.html"><button>Career Tips</button></a>
+        <a href="stories.html"><button>Success Stories</button></a>
+        <a href="faq.html"><button>FAQ</button></a>
+        <a href="contact.html"><button>Contact Us</button></a>
+        <a href="register.html"><button>Login/Register</button></a>
+    </nav>
+<style>
+    body{
+        background-image: url(7w0T6Ukvki6aLE1nSGsj--0--MMkZv.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+    <div class="container">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+            <!-- Login Form -->
+            <div>
+
+                <h2>Login</h2>
+                <form>
+                    <label>Email</label>
+                    <input type="email" required>
+                    
+                    <label>Password</label>
+                    <input type="password" required>
+                    
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    <p><a href="#">Forgot Password?</a></p>
+                </form>
+            </div>
+
+            <!-- Register Form -->
+            <div>
+                <h2>Create Account</h2>
+                <form>
+                    <label>Full Name</label>
+
+                    <input type="text" required>
+                    
+                    <label>Email</label>
+                    <input type="email" required>
+                    
+                    <label>Password</label>
+                    <input type="password" required>
+                    
+                    <label>Account Type</label>
+                    <select>
+                        <option>Job Seeker</option>
+                        <option>Employer</option>
+                        <option>Career Mentor</option>
+                    </select>
+                    
+                    <button type="submit" class="btn btn-secondary">Register</button>
+                </form>
+
+            </div>
+        </div>
+
+        <!-- Dashboard Preview -->
+        <div style="margin-top: 60px; background: #f4f4f4; padding: 30px; border-radius: 10px;">
+            <h2>User Dashboard Preview</h2>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 20px;">
+                <div><strong>📄 My Profile</strong><br>View and edit details</div>
+                <div><strong>📋 My Applications</strong><br>Track job applications</div>
+                <div><strong>⭐ Saved Jobs</strong><br>Jobs you've saved</div>
+                <div><strong>⚙️ Settings</strong><br>Account preferences</div>
+                <div><strong>📊 Application Stats</strong><br>Views and responses</div>
+                <div><strong>🔔 Notifications</strong><br>Job alerts and messages</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Job Connect Uganda. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
