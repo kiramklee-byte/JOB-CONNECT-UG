@@ -233,7 +233,7 @@ footer a {
 /* Responsive */
 @media (max-width: 768px) {
     nav{
-        flex-direction:column;
+        flex-direction:row;
         text-align: center;
         gap: 1rem;
     }
